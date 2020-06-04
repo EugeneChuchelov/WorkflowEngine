@@ -1,0 +1,95 @@
+{
+  "name": "workflow",
+  "state": "IDLE",
+  "created_at": null,
+  "updated_at": null,
+  "currentTask": null,
+  "tasks": {
+    "0": {
+      "name": "task0",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": [
+        1, 2
+      ],
+      "previousID": null,
+      "action": {
+        "type": "no"
+      }
+    },
+    "1": {
+      "name": "task1",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": [
+        3, 4
+      ],
+      "previousID": [
+        0
+      ],
+      "action": {
+        "type": "no"
+      }
+    },
+    "2": {
+      "name": "task2",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": [
+        5
+      ],
+      "previousID": [
+        0
+      ],
+      "action": {
+        "type": "no"
+      }
+    },
+    "3": {
+      "name": "task3",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": [
+        5
+      ],
+      "previousID": [
+        1
+      ],
+      "action": {
+        "type": "manual"
+      }
+    },
+    "4": {
+      "name": "task4",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": [
+        5
+      ],
+      "previousID": [
+        1
+      ],
+      "action": {
+        "type": "no"
+      }
+    },
+    "5": {
+      "name": "task5",
+      "created_at": null,
+      "updated_at": null,
+      "state": "IDLE",
+      "nextID": null,
+      "previousID": [
+        2, 3, 4
+      ],
+      "action": {
+        "type": "no"
+      }
+    }
+  }
+}
